@@ -17420,3 +17420,7 @@ table .btn-group-vertical {
 .aut-desc:before {
     content: "\f161";
 }
+
+.hiddenRow {
+    padding: 0 !important;
+}
