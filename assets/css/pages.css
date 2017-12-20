@@ -6543,6 +6543,10 @@ form legend {
     -moz-border-radius: 2px;
     transition: background .2s linear 0s
 }
+.form-control{
+  border: 1px solid #949292;
+  padding: 2.749px 12px;
+}
 
 .form-control:focus {
     border-color: rgba(0, 0, 0, .1);
