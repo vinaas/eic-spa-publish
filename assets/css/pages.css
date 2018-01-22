@@ -6587,10 +6587,10 @@ form legend {
 
 .form-control[disabled],
 .form-control[readonly],
-fieldset[disabled] .form-control {
+/* fieldset[disabled] .form-control {
     background: #f6f6f6;
     color: rgba(70, 70, 70, .23)
-}
+} */
 
 .form-horizontal .form-group-sm .form-control,
 .input-sm {
