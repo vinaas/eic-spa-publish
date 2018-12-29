@@ -4954,6 +4954,7 @@ body>.pgn-wrapper {
     }
 }
 
+
 @media (max-width:767px) {
     body>.pgn-wrapper[data-position$=-left],
     body>.pgn-wrapper[data-position$=-right] {
@@ -6969,6 +6970,7 @@ form legend {
     border-radius: 2px;
     padding: 7px 12px 4px;
     overflow: hidden;
+    min-height: 100px;
     transition: background-color .2s ease
 }
 
@@ -17447,7 +17449,7 @@ table .btn-group-vertical {
 }
 .gt_gioithieu{
     position: absolute;
-    top: 606px;
+    top: 600px ;
     margin-top: -130px;
     line-height: 50px;
     font-size: 40px;
@@ -17456,6 +17458,18 @@ table .btn-group-vertical {
     margin-top: 55px;
     left: 80px;
     width: 300px;
+}
+@media only screen and (max-width: 1440px){
+  .gt_gioithieu{
+    top:500px ;
+
+  }
+}
+@media only screen and (max-width: 1024px){
+  .gt_gioithieu{
+    top:300px;
+    font-size: 30px;
+  }
 }
 .update{
     float: right;
