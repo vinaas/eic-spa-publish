@@ -2000,10 +2000,10 @@ body.dashboard .page-container {
     background: transparent;
     border-radius: 0;
     border-bottom: 0;
-    padding: 20px 20px 7px;
+    /* padding: 20px 20px 7px; */
     position: relative;
     z-index: 3;
-    min-height: 48px
+    min-height: 20px
 }
 
 .panel .panel-heading.separator:after {
@@ -2181,7 +2181,7 @@ body.dashboard .page-container {
 }
 
 .panel .panel-body {
-    padding: 20px;
+    padding: 5px 20px 20px 20px;
     height: 100%;
     width: 100%
 }
@@ -2668,11 +2668,6 @@ hr.dotted {
 
 .semi-bold {
     font-weight: 400!important
-
-}
-.semi-bold1 {
-  font-weight: 400!important;
-  font-size: 25px;
 }
 
 .bold {
@@ -4954,7 +4949,6 @@ body>.pgn-wrapper {
     }
 }
 
-
 @media (max-width:767px) {
     body>.pgn-wrapper[data-position$=-left],
     body>.pgn-wrapper[data-position$=-right] {
@@ -5477,7 +5471,7 @@ body>.pgn-wrapper {
 
 .nav-tabs>li>a {
     border-radius: 0;
-    padding: 15px 20px;
+    /* padding: 15px 20px; */
     margin-right: 0;
     font-family: Roboto;
     font-weight: 400;
@@ -5502,7 +5496,7 @@ body>.pgn-wrapper {
 
 .nav-tabs~.tab-content {
     overflow: hidden;
-    padding: 15px
+    padding: 0px
 }
 
 .nav-tabs~.tab-content>.tab-pane.slide-left,
@@ -6000,7 +5994,7 @@ body>.pgn-wrapper {
 }
 
 .panel-group .panel-heading {
-    padding: 13px 18px 10px 22px
+    /* padding: 13px 18px 10px 22px */
 }
 
 .panel-group .panel-heading.collapsed {
@@ -6970,7 +6964,6 @@ form legend {
     border-radius: 2px;
     padding: 7px 12px 4px;
     overflow: hidden;
-    min-height: 100px;
     transition: background-color .2s ease
 }
 
@@ -17434,570 +17427,4 @@ table .btn-group-vertical {
 
 .hiddenRow {
     padding: 0 !important;
-}
-.gt_anhdaidien{
-    position: absolute;
-    bottom: 90px;
-    right: 52px;
-    padding-right: 145px;;
-}
-.gt_upload{
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    padding: 0 50px 50px;
-}
-.gt_gioithieu{
-    position: absolute;
-    top: 600px ;
-    margin-top: -130px;
-    line-height: 50px;
-    font-size: 40px;
-    font-family: Arial, Helvetica, sans-serif;
-    border-top: 7px solid #ea8627;
-    margin-top: 55px;
-    left: 80px;
-    width: 300px;
-}
-@media only screen and (max-width: 1440px){
-  .gt_gioithieu{
-    top:500px ;
-
-  }
-}
-@media only screen and (max-width: 1024px){
-  .gt_gioithieu{
-    top:300px;
-    font-size: 30px;
-  }
-}
-.update{
-    float: right;
-    bottom: -10px;
-    height: 43px;
-    width: 125px;
-}
-.lh_address{
-    font-size: 18px;
-    line-height: 26px;
-    margin: 0;
-    padding: 0;
-    font-weight: bold;
-}
-.lh_diachi{
-    position: relative;
-    padding: 0 0 20px 52px;
-    font-size: 16px;
-    line-height: 26px;
-}
-.contact-box{
-    padding: 18px 10px 10px;
-    margin-bottom: 35px;
-    background: #27bae9;
-    background: -moz-linear-gradient(top, #27bae9 0%, #0a6eab 100%);
-    background: -webkit-linear-gradient(top, #27bae9 0%, #0a6eab 100%);
-    background: linear-gradient(to bottom, #27bae9 0%, #0a6eab 100%);
-    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#27bae9', endColorstr='#0a6eab', GradientType=0);
-    border-radius: 8px;
-}
-.contact-box-title{
-    font-size: 22px;
-    line-height: 24px;
-    font-weight: bold;
-    margin-bottom: 14px;
-    color: #fff;
-    text-transform: uppercase;
-    font-family: 'helvetica', sans-serif;
-}
-.contact-box-row{
-    background-color: #fff;
-    position: relative;
-    font-size: 14px;
-    line-height: 22px;
-    color: #000;
-    padding: 16px 16px 16px 52px;
-    margin-top: 4px;
-    border-radius: 4px;
-}
-.color_decor{
-    color: #005395;font-size: 26px;
-    line-height: 1.154em;
-    padding: 0;
-    margin: 0 0 20px;
-    font-family: 'helvetica', sans-serif;
-    font-weight: 700;
-}
-.draggable{
-    transform: translate3d(0, 0, 0) !important;
-    width: 100%;
-}
-.testimonials-text{
-    position: relative;
-    background: #f0f6f9;
-    padding: 50px 50px;
-    color: #617585;
-    font-size: 20px;
-    line-height: 1.5em;
-    border-radius: 16px;
-    font-family: Georgia, Times, 'Times New Roman', serif;
-    font-style: italic;
-}
-.testimonials-username{
-    font-size: 18px;
-    font-weight: bold;
-    margin: 40px 0 10px;
-    color: #4c4c4c;
-}
-.pricing-block{
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    max-width: 370px;
-    margin-left: auto;
-    margin-right: auto;
-}
-.pricing-block__top{
-    height: 190px;
-    background: #e8eff2;
-}
-.pricing-block__price{
-    position: absolute;
-    top: 20px;
-    left: 50%;
-    margin-left: -148px;
-    width: 20em;
-    height: 20em;
-    border: 12px solid #e8eff2;
-    border-radius: 50%;
-    text-align: center;
-    background: #fff;
-}
-.vert-wrapper{
-    display: table;
-    height: 100%;
-    width: 100%;
-    position: relative;
-    z-index: 1;
-}
-.pricing-block__bottom{
-    padding: 190px 33px 40px;
-    background: #fff;
-    text-align: center;
-}
-.title1{
-  padding: 0;
-  margin: 0 0 40px;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 600 !important;
-  line-height: 1.2em;
-  color: #005395;
-  margin-bottom: 18px;
-  text-transform: uppercase;
-  font-size: 23px !important;
-}
-.title2{
-    font-size: 18px;
-    line-height: 1.2em;
-    font-weight: 600;
-    color: #424242;
-    margin-bottom: 28px;
-}
-.category-price{
-    position: absolute;
-    z-index: 5;
-    top: 25px;
-    right: 0;
-    padding: 0 15px 0 20px;
-    font-size: 18px;
-    line-height: 46px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
-    text-transform: lowercase;
-    color: #fff;
-    border-radius: 23px 0 0 23px;
-    background-color: #005395;
-    text-transform: none;
-}
-.category-image{
-    position: relative;
-    margin-bottom: 20px;
-    overflow: hidden;
-    z-index: 1;
-    border-radius: 20px;
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-}
-.asideColumn h4{
-    font-size: 22px;
-    line-height: 26px;
-    text-transform: uppercase;
-    position: relative;
-    padding: 3px 0 3px 20px;
-}
-.respon{
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    margin-right: -15px;
-    margin-left: -15px;
-}
-
-.duan{
-    left: 87px;
-    top: 130px;
-}
-.duan_1{
-    left: -70px;
-    bottom: -110px;
-}
-.tenduan{
-    font-size: 26px;
-    line-height: 1.2em;
-    color: #005395;
-    margin-bottom: 18px;
-    text-transform: uppercase;
-    font-size: 23px;
-    padding: 0;
-    margin: 0 0 40px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 500;
-
-}
-.thongtinduan ul{
-    margin: 0 0 30px;
-    padding: 0;
-    text-align: left;
-    list-style: none;
-    
-}
-.thongtinduan ul li{
-    padding: 0 0 6px 26px;
-    position: relative;
-    font-size: 15px;
-    line-height: 22px;
-}
-.thongtin{
-    padding: 15px 22px;
-    font-family: 'helvetica', sans-serif;
-    font-size: 16px;
-    line-height: 19px;
-    font-weight: 700;
-    height: 51px;
-    border-radius: 10px;
-    vertical-align: top;
-    background-color: #005395;
-    color: #ffffff;
-    text-transform: uppercase;
-    -webkit-transition: all 300ms ease;
-}
-.slider_dichvu{
-  
-  position: absolute;
-  bottom: 0;
-  left: 232px;
-  top: 150px;
-  height: 70px !important;
-  width: 70%;
-  text-align: center;
-  margin: 0 auto;
-  background: transparent;
-  color: #fff;
-}
-.font_dichvu{
-  font-family: helvetica, sans-serif;
-  font-weight: 400;
-  font-size: 70px;
-  margin-bottom: .6em;
-  line-height: 1em;
-  -webkit-animation-delay: 1s;
-  animation-delay: 1s;
-
-}
-.img_res{
-  max-width: 100%;
-  object-fit: cover;
-  height: 385px;
-}
-.gt_upload_trangchu{
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  padding: 0 50px 50px;
-  bottom: 155px !important;
-}
-.category-title_trangchu{
-  position: absolute;
-  z-index: 3;
-  bottom: 18px;
-  left: 55px;
-  margin: 0;
-  padding: 0;
-  font-size: 22px;
-  line-height: 28px;
-  font-family: 'helvetica', sans-serif;
-  font-weight: 700;
-  text-transform: uppercase;
-  background: transparent;
-  color: #fff;
-  text-align: center;
-
-}
-.mota_dichvu{
-  width:360px;
-  width: 360px;
-  height: 70px;
-  font-family: 'Open Sans', sans-serif;
-  color: #000000;
-  font-size: 15px;
-  line-height: 22px;
-  font-weight: 400;
-  text-align: center;
-}
-.chungtoi{
-  position: relative;
-  width: 100%;
-  color: #fff;
-}
-.chungtoi_1{
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  width: 525px;
-  padding: 70px 100px 60px 120px;
-  content: '';
-  background-color: rgba(40, 168, 225, 0.95);
-  /* -webkit-transform: skew(-15deg);
-  transform: skew(-15deg); */
-  font-size: 16px;
-  line-height: 24px;
-  z-index: 0;
-  height: 625px;
-  
-}
-.chungtoi_2
-{
-  line-height: 50px;
-    padding-bottom: 30px;
-    margin-bottom: 50px;
-    color: #fff !important;
-    font-size: 50px !important;
-    line-height: 1em;
-    padding: 0;
-    margin: 0 0 40px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 600;
-}
-.chungtoi_3{
-  margin: 0 0 10px;
-  padding: 0;
-  font-size: 18px;
-  line-height: 25px;
-  text-transform: uppercase;
-  font-weight: 700;
-  font-family: 'helvetica', sans-serif;
-  color: #fff;
-}
-.chungtoi_4{
-  width: 300px;
-  height: 300px;
-  color: #000;
-  font-size: 16px;
-  line-height: 24px;
-  text-align: center;
-}
-.xemchitiet{
-  background: #ff8427;
-  color: #fff;
-  padding: 15px 22px;
-    font-family: 'helvetica', sans-serif;
-    font-size: 16px;
-    line-height: 19px;
-    font-weight: 700;
-    height: 51px;
-    border-radius: 10px;
-    vertical-align: top;
-    border: 1px solid #005395;
-    text-transform: uppercase;
-    -webkit-transition: all 300ms ease;
-}
-.title_trangchu{
-  font-size: 52px;
-  line-height: 1em;
-  padding: 0 0 20px;
-  margin: 0 0 60px;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 600;color: #005395;
-}
-.chung_chi2{
-  position: absolute;
-    top: 10px;
-    left: 39px;
-}
-.tieude{
-  display: block;
-  position: relative;
-  
-  font-size: 18px;
-  line-height: 45px;
-  font-weight: 600;
-  text-transform: uppercase;
-  color: #005395;
-  -webkit-transition: color 0.3s ease;
-  width: 100%;
-}
-.tuyendung{
-  color: #005395;font-size: 52px;
-  line-height: 1em;
-  padding: 0 0 20px;
-  margin: 0 0 60px;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 600;
-}
-.chung_chi{
-  position: absolute;
-  left: 8px;
-  height: 40px;
-  color: #005395;
-  line-height: 1.2em;
-  margin-bottom: 10px;
-  font-size: 18px;
-  line-height: 1.273em;
-  padding: 0;
-  margin: 0 0 20px;
-  font-family: 'helvetica', sans-serif;
-  font-weight: bold;
-  text-transform: uppercase;
-  width: 365px;
-  text-align: center;
-}
-.tacgia{
-  height: 50px;
-  width: 150px;font-size: 18px;
-  font-weight: bold;
-  margin: 15px 0 10px;
-  color: #4c4c4c;
-}
-.button_1{
-  position: absolute;
-  top: 102px;
-  left: -20px;
-}
-.sua_duan{
-  position: absolute;
-  left: 200px;
-  top: -26px;
-  width: 50px;
-  height: 30px;
-}
-.xoa_duan{
-  position: absolute;
-  left: 252px;
-  top: -26px;
-  width: 50px;
-  height: 30px;
-  background-color: red;
-}
-.xoa_doitac{
-  background: red;
-  left: 33px;
-  bottom: 45px;
-}
-.sua_doitac{
-  left: 34px;
-    bottom: 45px;
-}
-.diachi{
-  width: 450px;
-  height: 50px;
-  margin-top: 15px;
-}
-.dienthoai{
-  width: 250px;
-  height: 50px;
-  margin-top: 15px;
-}
-@media only screen and (max-width: 1025px){
-  .diachi{
-    width: 350px;
-  }
-  .btn-danger, .btn-danger:focus{
-    margin-top: 2px;
-  }
-  .sua_duan{
-    left: 160px;
-  }
-  .xoa_duan{
-    left: 215px;
-  }
-  .category-price{
-    font-size: 12px;
-    right: 40px;
-  }
-  .img_res{
-    left: 120px;
-    top: 47px;
-    font-size: 40px;
-  }
-  .category-title_trangchu{
-    bottom: 18px;
-    left: 30px;
-    width: 178px;
-    margin: 0;
-    padding: 0;
-    font-size: 17px;
-
-  }
-  .xoa_doitac{
-  
-    left: 16px;
-
-  }
- 
-  .sua_doitac{
-    left: 19px;
-     
-  }
-  .gt_upload_trangchu{
-    padding: 0 0px 50px;
-    
-  }
-  .mota_dichvu{
-    width: 230px;
-  }
-  .chung_chi{
-    left: 0px;
-    height: 35px;
-    margin-bottom: 10px;
-    font-size: 12px;
-    width: 180px;
-  }
-}
-@media only screen and (max-width: 1441px) and (min-width: 1026px){
-  .slider_dichvu{
-    left: 190px;
-  }
-  .gt_upload_trangchu{
-    padding-left: 18px;
-    
-  }
-  
-}
-.dichvu_dialog{
-  padding-top: 10px;
-  font-size: 15px;font-weight: 400;
-  line-height: 20px;    display: inline-block;
-  max-width: 100%;
-  margin-bottom: 5px;
-}
-.dichvu_dialog1{
-  padding-top: 10px;
-  font-size: 15px;
-  padding-left: 15px;
-}
-.upload_dichvu{
-  position: absolute;
-  left: 10px;
-  top: 10px;
 }
