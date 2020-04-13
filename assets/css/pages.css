@@ -10877,7 +10877,16 @@ body.overflow-hidden {
 
 .login-wrapper .bg-pic>img {
     height: 100%;
-    opacity: .6
+    /* opacity: .6 */
+}
+.login-wrapper .bg-pic-notif {
+    position: absolute;
+    width: 100%;
+    overflow: hidden
+}
+
+.login-wrapper .bg-pic-notif>img {
+    height: 100%;
 }
 
 .login-wrapper .login-container {
