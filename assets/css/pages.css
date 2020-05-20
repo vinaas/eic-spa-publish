@@ -27,11 +27,11 @@ body.mobile .sidebar-menu>ul {
 }
 
 body.mobile .page-sidebar .sidebar-menu .menu-items li:hover a {
-    color: #788296
+    color: #fff
 }
 
 body.mobile .page-sidebar .sidebar-menu .menu-items li:hover .icon-thumbnail {
-    color: #788296!important
+    color: #fff!important
 }
 
 body.mobile .page-sidebar .sidebar-menu .menu-items li.active>.icon-thumbnail,
@@ -220,7 +220,7 @@ body.dashboard .page-container {
 
 .page-sidebar a,
 .page-sidebar button {
-    color: #788296
+    color: #fff
 }
 
 .page-sidebar a:active,
@@ -234,7 +234,7 @@ body.dashboard .page-container {
 .page-sidebar a:visited,
 .page-sidebar button:focus,
 .page-sidebar button:visited {
-    color: #788296
+    color: #fff
 }
 
 .page-sidebar .scroll-element {
@@ -336,7 +336,7 @@ body.dashboard .page-container {
 .page-sidebar .sidebar-menu .menu-items li.open>a,
 .page-sidebar .sidebar-menu .menu-items li:hover>.icon-thumbnail,
 .page-sidebar .sidebar-menu .menu-items li:hover>a {
-    color: #fff
+    color: #fcbe03
 }
 
 .page-sidebar .sidebar-menu .menu-items li>a {
@@ -533,7 +533,7 @@ body.dashboard .page-container {
     left: 0;
     float: right;
     margin-right: 14px;
-    color: #788296;
+    color: #fff;
     font-size: 16px;
     transition: -webkit-transform .4s cubic-bezier(.05, .74, .27, .99);
     transition: transform .4s cubic-bezier(.05, .74, .27, .99);
@@ -619,7 +619,7 @@ body.dashboard .page-container {
 
 .secondary-sidebar .main-menu>li a {
     font-size: 14px;
-    color: #788296;
+    color: #fff;
     line-height: 37px
 }
 
@@ -658,7 +658,7 @@ body.dashboard .page-container {
 .secondary-sidebar .sub-menu li a .badge {
     background: transparent;
     font-size: 13px;
-    color: #788296;
+    color: #fff;
     line-height: 25px
 }
 
@@ -847,7 +847,7 @@ body.dashboard .page-container {
     position: absolute;
     right: 12px;
     top: 2px;
-    color: #788296;
+    color: #fff;
     padding: 6px;
     opacity: .4
 }
@@ -864,7 +864,7 @@ body.dashboard .page-container {
 
 .quickview-wrapper .nav-tabs>li>a {
     padding: 11px;
-    color: #788296;
+    color: #fff;
     opacity: .6;
     border: 0;
     text-align: center;
@@ -874,7 +874,7 @@ body.dashboard .page-container {
 }
 
 .quickview-wrapper .nav-tabs>li>a:hover {
-    color: #788296;
+    color: #fff;
     opacity: 1
 }
 
@@ -2857,7 +2857,7 @@ hr.dotted {
 }
 
 .bg-menu-light {
-    background-color: #788296
+    background-color: #fff
 }
 
 .gradient-black,
