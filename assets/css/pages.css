@@ -202,7 +202,8 @@ body.dashboard .page-container {
 
 .page-sidebar {
     width: 280px;
-    background-color: #2b303b;
+    /* background-color: #2b303b; */
+    background-color: #143375;
     z-index: 1000;
     left: -210px;
     position: fixed;
@@ -244,8 +245,8 @@ body.dashboard .page-container {
     display: block;
     height: 60px;
     line-height: 60px;
-    background-color: #272b35;
-    border-bottom: 1px solid #232730;
+    background-color: #0a2975;
+    border-bottom: 1px solid #081e50;
     color: #fff;
     width: 100%;
     padding: 0 20px;
@@ -365,7 +366,7 @@ body.dashboard .page-container {
     padding-left: 22px;
     min-height: 40px;
     line-height: 40px;
-    font-size: 14px;
+    font-size: 12px;
     clear: both
 }
 
@@ -474,7 +475,8 @@ body.dashboard .page-container {
     list-style: none;
     clear: both;
     margin: 0 0 10px;
-    background-color: #21252d;
+    /* background-color: #21252d; */
+    background-color: #0d2c6b;
     padding: 18px 0 10px
 }
 
@@ -516,12 +518,12 @@ body.dashboard .page-container {
 }
 
 [data-toggle-pin=sidebar]>i:before {
-    content: "\f10c"
+    content: "\f111"
 }
 
 .icon-thumbnail {
     display: inline-block;
-    background: #21252d;
+    /* background: #21252d; */
     height: 40px;
     width: 40px;
     line-height: 40px;
@@ -6544,7 +6546,7 @@ form legend {
     transition: background .2s linear 0s
 }
 .form-control{
-  border: 1px solid #949292;
+  /* border: 1px solid #949292; */
   padding: 2.749px 12px;
 }
 
@@ -8599,7 +8601,7 @@ div.cs-skin-slide .cs-options ul li span:hover {
     background: #f9f9f9;
     font-weight: 600;
     font-family: Roboto;
-    font-size: 13px;
+    font-size: 12px;
     padding-top: 8px;
     padding-bottom: 8px;
     vertical-align: middle;
@@ -8628,7 +8630,7 @@ div.cs-skin-slide .cs-options ul li span:hover {
     border-bottom: 1px solid hsla(0, 0%, 88%, .7);
     border-top: 0;
     padding: 5px 10px;
-    font-size: 13.5px
+    font-size: 12px
 }
 
 .table tbody tr td .btn-tag {
@@ -10890,7 +10892,8 @@ body.overflow-hidden {
 }
 
 .login-wrapper .login-container {
-    width: 496px;
+    /* width: 496px; */
+    width: 400px;
     display: block;
     position: relative;
     float: right
@@ -17374,7 +17377,8 @@ ai-dialog-container.active .modal.fade.stick-up .modal-dialog {
 
 table .btn-group,
 table .btn-group-vertical {
-    min-width: 210px
+    /* min-width: 210px */
+    min-width: 100px
 }
 
 .form-inline .form-group {
