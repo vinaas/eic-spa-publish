@@ -6546,7 +6546,7 @@ form legend {
     transition: background .2s linear 0s
 }
 .form-control{
-  /* border: 1px solid #949292; */
+  border: 1px solid #949292;
   padding: 2.749px 12px;
 }
 
@@ -7586,8 +7586,11 @@ select.full-width+.select2-container {
     width: 100%!important
 }
 
+.select2-container{
+  border: 1px solid #949292;
+}
 .select2-container :focus {
-    outline: none
+    outline: none,
 }
 
 .select2-container .select2-selection {
