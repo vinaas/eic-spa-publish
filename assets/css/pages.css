@@ -12539,12 +12539,12 @@ body.overflow-hidden {
 }
 
 .profile-dropdown li:last-child {
-    margin-top: 11px;
+    /* margin-top: 11px; */
     padding: 0
 }
 
 .profile-dropdown li:last-child>a {
-    padding-top: 3px;
+    /* padding-top: 3px; */
     padding-bottom: 3px;
     padding-right: 19px
 }
