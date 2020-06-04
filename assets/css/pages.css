@@ -17414,7 +17414,9 @@ table .btn-group-vertical {
 }
 
 .des-accordion.panel-group .panel-heading {
-    background: #deeeff
+    /* background: #deeeff */
+    background: #fafbf9
+    
 }
 
 .des-accordion.panel-group .panel-heading .panel-title>a {
