@@ -17446,3 +17446,7 @@ table .btn-group-vertical {
 .hiddenRow {
     padding: 0 !important;
 }
+
+.swal2-container {
+  z-index: 999999!important
+}
