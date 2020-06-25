@@ -8903,6 +8903,20 @@ table.dataTable thead .sorting_desc_disabled:after {
         clear: both;
         display: block
     }
+    .form-filter {
+      display: block !important;;
+    }
+   
+  
+    .form-filter .form-group {
+        max-width: 100% !important;
+    }
+    
+    .form-filter .form-group.long {
+        max-width: 100% !important;
+    }
+  
+
 }
 
 .demo-table-search thead th:first-child {
