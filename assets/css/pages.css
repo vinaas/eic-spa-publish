@@ -203,7 +203,7 @@ body.dashboard .page-container {
 .page-sidebar {
     width: 280px;
     /* background-color: #2b303b; */
-    background-color: #143375;
+    background-image: linear-gradient(to right, #112b71 , #083bab);
     z-index: 1000;
     left: -210px;
     position: fixed;
@@ -245,8 +245,8 @@ body.dashboard .page-container {
     display: block;
     height: 60px;
     line-height: 60px;
-    background-color: #0a2975;
-    border-bottom: 1px solid #081e50;
+    background-image: linear-gradient(to right, #132148 , #083bab);
+    border-bottom: 0px solid #081e50;
     color: #fff;
     width: 100%;
     padding: 0 20px;
@@ -334,9 +334,11 @@ body.dashboard .page-container {
 .page-sidebar .sidebar-menu .menu-items li.active>a,
 .page-sidebar .sidebar-menu .menu-items li.open>.icon-thumbnail,
 .page-sidebar .sidebar-menu .menu-items li.open>a,
+.page-sidebar .sidebar-menu .menu-items li:hover,
 .page-sidebar .sidebar-menu .menu-items li:hover>.icon-thumbnail,
 .page-sidebar .sidebar-menu .menu-items li:hover>a {
-    color: #fcbe03
+    color: #36d1dc;
+    background-color:#0a2975
 }
 
 .page-sidebar .sidebar-menu .menu-items li>a {
@@ -10892,7 +10894,8 @@ body.overflow-hidden {
 .login-wrapper .bg-pic {
     position: absolute;
     width: 100%;
-    overflow: hidden
+    overflow: hidden;
+    background: #fff;
 }
 
 .login-wrapper .bg-pic>img {
